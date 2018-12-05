@@ -19,7 +19,7 @@ mergeBy('id', [{ id: 1, name: 'Anakin', age: 10 }], [{ id: 1, name: 'Darth Vader
 ```
 
 - [ ] `mergeBy` should accept a function as first parameter (eg. `mergeBy('id', a, b) === mergeBy(obj => obj.id, a, b)`)
-- [ ] `mergeBy` should only use the predicate function or key for the first level of depth
+- [ ] `mergeBy` should only use the predicate function or key for the first level of depth (and use a regular concatenation for depth > 1)
 
 ```js
 mergeBy(
@@ -29,4 +29,4 @@ mergeBy(
 ); // [{id: 1,age: 10,name: 'Darth Vader',side: 'dark',weapons: [{ id: 1, name: 'blaster' }, { id: 1, name: 'lightsaber' }]}]
 ```
 
-- [ ] `mergeBy` should work on Sets
+- [ ] _BONUS_ `mergeBy` should work on Sets
