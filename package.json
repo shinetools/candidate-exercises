@@ -5,11 +5,15 @@
   "author": "shinetools",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "test": "jest"
+  },
   "devDependencies": {
     "eslint": "^5.9.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jest": "^22.1.2",
+    "jest": "^26.0.1",
     "prettier": "^1.15.3",
     "prettier-eslint": "^8.8.2"
   }
