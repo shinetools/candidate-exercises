@@ -1,7 +1,7 @@
 const mergeBy = require('../mergeBy');
 
 describe('mergeBy', () => {
-  it('should merge an array objects by id', () => {
+  it('should merge an array of objects using the provided key', () => {
     // to do
   });
 });
