@@ -4,7 +4,9 @@ Implement & write tests for the following functions
 
 ## uniqBy
 
-- [ ] it should deduplicate objects inside an array using the provided key
+- [ ] it should deduplicate objects inside an array using the provided key.
+  - the input array must not be mutated
+  - the order of the elements must be kept (i.e.: you cannot have Obi-Wan before Anakin) 
 
 ```js
 uniqBy('id', [
@@ -22,6 +24,8 @@ uniqBy('id', [
 ## mergeBy
 
 - [ ] `mergeBy` should merge two arrays of objects using a specified key
+  - the input arrays must not be mutated
+  - the order of the elements must be kept (i.e.: you cannot have Obi-Wan before Anakin/Darth Vader)
 
 ```js
 mergeBy(
