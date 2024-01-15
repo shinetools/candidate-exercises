@@ -16,5 +16,8 @@
     "jest": "^26.0.1",
     "prettier": "^1.15.3",
     "prettier-eslint": "^8.8.2"
+  },
+  "engines": {
+    "node": "{}"
   }
 }
